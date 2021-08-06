@@ -53,7 +53,6 @@ function bunnySlave(){
     if(food >= 30){
         food -= 30;
         bunny += 1;
-        document.getElementById("slaves").innerHTML = "You Have " + bunny + " Bunnys"
     }
 }
 
