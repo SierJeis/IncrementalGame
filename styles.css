@@ -1,3 +1,7 @@
+*{
+    text-align: center;
+}
+
 .marketplace{
     display: none;
 }
@@ -8,4 +12,13 @@
 
 #axes{
     display: none;
+}
+
+#picks{
+    display: none;
+}
+
+button{
+    background-color: white;
+    font-size: 18px;
 }
