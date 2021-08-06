@@ -4,6 +4,7 @@ var stone = 0;
 var pickaxe = 0;
 var axe = 0;
 var bunny = 0;
+var money = 0;
 
 function gatherFood(){
     food += 1;
@@ -52,7 +53,7 @@ function bunnySlave(){
     if(food >= 30){
         food -= 30;
         bunny += 1;
-        document.getElementById("slaves").innerHTML = "You have " + bunny + " Bunnys"
+        document.getElementById("slaves").innerHTML = "You Have " + bunny + " Bunnys"
     }
 }
 
